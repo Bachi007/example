@@ -1,0 +1,212 @@
+<html>
+<head>
+<title>Valentine's Day</title>
+<style>
+
+body {
+    animation: BackgroundBody 6s linear infinite;
+}
+
+#heart {
+   
+   display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+    animation: BackgroundHeart 6s linear infinite;
+}
+
+
+#heart:before,
+#heart:after {
+    content: "";
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+    animation: BackgroundHeart 6s linear infinite;
+}
+
+#heart:before {
+    top: -15px;
+    left: 0;
+    animation: BackgroundHeart 6s linear infinite;
+}
+
+#heart:after {
+    left: 15px;
+    top: 0;
+    animation: BackgroundHeart 6s linear infinite;
+}
+
+#valentineDayOne {
+    position: relative;
+    font-size: 10px;
+    font-weight: bold;
+    animation: ValentineDayColor 10s linear infinite;
+}
+
+#valentineDayTwo {
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    animation: ValentineDayColor 10s linear infinite;
+}
+
+#valentineDayThree {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    animation: ValentineDayColor 10s linear infinite;
+}
+
+#loveZero {
+    left: 10px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 2s linear infinite;
+}
+
+#loveOne {
+    left: 100px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 3s linear infinite;
+}
+
+#loveTwo {
+    left: 200px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 4s linear infinite;
+}
+
+#loveThree {
+    left: 300px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 5s linear infinite;
+}
+
+#loveFour {
+    left: 400px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 6s linear infinite;
+}
+
+#loveFive {
+    left: 500px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 7s linear infinite;
+}
+
+#loveSix {
+    left: 600px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 8s linear infinite;
+}
+
+#loveSeven {
+    left: 700px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 9s linear infinite;
+}
+
+#loveEight{
+    left: 800px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 10s linear infinite;
+}
+
+#loveNine {
+    left: 900px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 11s linear infinite;
+}
+
+#loveTen {
+    left: 1000px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 12s linear infinite;
+}
+
+#loveEleven {
+    left: 1100px;
+    bottom: 0;
+    position: absolute;
+    animation: UpAndDown 13s linear infinite;
+}
+@keyframes UpAndDown {
+  0%, 100% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 90%;
+  }
+}
+
+@keyframes BackgroundBody {
+  0%, 100% {
+    background-color: #ebbbf9;
+  }
+  50% {
+    background-color: #ff1462;
+  }
+}
+
+@keyframes BackgroundHeart {
+  0%, 100% {
+    background-color: #ff1462;
+  }
+  50% {
+    background-color: #ebbbf9;
+  }
+}
+
+@keyframes ValentineDayColor {
+  0%, 100% {
+    color: #ff1462;
+  }
+  50% {
+    color: #ebbbf9;
+  }
+}
+.heartgif{
+padding-top:130px;
+}
+
+</style>
+</head>
+<body>
+       <div id="loveZero"><div id="heart"></div></div>
+       <div id="loveOne"><div id="heart"></div></div>
+       <div id="loveTwo"><div id="heart"></div></div>
+       <div id="loveThree"><div id="heart"></div></div>
+       <div id="loveFour"><div id="heart"></div></div>
+       <div id="loveFive"><div id="heart"></div></div>
+	   <center>
+	   <div class="heartgif">
+	   <a href="greeting.html"><img src="heartgif.gif"></a>
+	   <div id="valentineDayThree">Happy Valentine Day!</div>
+       <div id="valentineDayTwo">Happy Valentine Day!</div>
+       <div id="valentineDayOne">Happy Valentine Day!</div>     
+	 
+	   </center>
+       <div id="loveSix"><div id="heart"></div></div>
+       <div id="loveSeven"><div id="heart"></div></div>
+       <div id="loveEight"><div id="heart"></div></div>
+       <div id="loveNine"><div id="heart"></div></div>
+       <div id="loveTen"><div id="heart"></div></div>
+       <div id="loveEleven"><div id="heart"></div></div>
+	   </body>
+</html>
